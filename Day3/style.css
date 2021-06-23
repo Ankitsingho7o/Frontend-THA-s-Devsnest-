@@ -1,0 +1,73 @@
+h1{
+    margin:31px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+h2{
+    font-family: 'Merienda', cursive;
+    margin: 5px;
+}
+h3{
+    font-family: 'Merienda', cursive;
+    margin: 0;
+    margin-left: 5px;
+}
+
+/* Doubt  */
+   p{
+    margin:0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+ul{
+    margin: 0;
+    margin-top: 4px;
+    margin-left: 20px;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.conatainerM{
+    display: flex;
+    margin: auto;
+    width: 785px;
+    height:850px;
+    border: 5px ridge #001f3f;
+    border-radius: 10px;
+    padding: 50px 20px 50px;
+}
+
+.conatainers1{
+    padding-right: 5px;
+    width: 385px;
+    border-right: 3px ridge #001f3f;
+    margin-top: 70px;
+}
+.conatainers1 div{
+    margin: 28px 0 30px;
+}
+
+.conatainers2{
+    padding-left: 15px;
+    width: 385px;
+    margin-top: 70px;
+}
+
+.conatainers2 div{
+    margin: 16px 0 30px;
+}
+
+
+.head{
+    text-align: center;
+     height: 100px ;
+     width: 355px;
+    background-color: white;
+    /* border:3px solid  seagreen; */
+    position: relative;
+    left: 468px; 
+     top: 50px;
+    padding: 10px;
+}
