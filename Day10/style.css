@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 550px;
+  width: 800px;
+  border: 2px solid rgb(87, 206, 180);
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  /* 1fr(1/3) means one fracion of the entire width available */
+  /* grid-template-rows:210px 210px 210px;
+  grid-template-columns:210px 210px 210px 210px; */
+}
+
+.box {
+  width: 180px;
+  height: 150px;
+  margin: 10px;
+  position:relative;
+  box-sizing: border-box;
+  transition: all 0.6s ;
+  transform-style: preserve-3d;
+
+}
+.matched{
+ opacity:0;
+}
+
+.flip{
+    transform: rotateY(180deg);
+}
+.front{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    
+}
+
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
