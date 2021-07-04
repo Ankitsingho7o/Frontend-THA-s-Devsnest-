@@ -1,0 +1,118 @@
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+
+  background-color: #aacaf2;
+}
+h1 {
+  font-family: "Rubik", sans-serif;
+  color: #1b4981;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.container {
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+}
+
+.add {
+  margin: 5px;
+  color: rgb(20, 149, 235);
+  background-color: rgb(173, 216, 230);
+  border: none;
+  padding: 5px;
+  border: 1px solid rgb(9, 148, 240);
+  cursor: pointer;
+}
+.add:active {
+  box-shadow: 0 0 2px 2px rgb(9, 148, 240);
+}
+.delete {
+  margin: 5px;
+  margin-left: 8px;
+  color: red;
+  background-color: rgb(250, 138, 138);
+  border: 1px solid rgb(255, 0, 0);
+  cursor: pointer;
+}
+.delete:active {
+  box-shadow: 0 0 2px 0.5px rgb(255, 0, 0);
+}
+
+.completedA {
+  animation: op 0.5s;
+}
+
+.todos {
+  color: #002e66;
+}
+
+@keyframes op {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.check {
+  padding: 20px;
+  background: transparent;
+  border: none;
+}
+
+.task {
+  margin: 15px 0px 15px 0px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.button {
+  width: 10%;
+  height: 40px;
+  border: 2px solid rgb(19, 96, 119);
+  background-color: rgb(55, 194, 236);
+  box-shadow: 0 0 10px 0 rgb(130, 194, 214);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.button:active {
+  box-shadow: 0 0 10px 2px rgb(63, 161, 190);
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+.motivation {
+  text-align: center;
+  width: 80%;
+  margin-left: 80px;
+  margin-top: 20px;
+  color: #1b4981;
+}
