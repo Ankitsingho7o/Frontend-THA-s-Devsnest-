@@ -1,0 +1,88 @@
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body > div {
+  display: flex;
+  height: 100vh;
+}
+
+.inside {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: 40px solid rgb(245, 81, 81);
+  margin: auto;
+  box-shadow: 0 0 8px 3px grey, inset 0 0 2px 5px rgb(255, 255, 255),
+    inset 0 0 8px 8px grey;
+}
+.line1,
+.line2,
+.line3 {
+ 
+  width: 115px;
+  border-top: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+}
+
+.line1{
+   /* transform: rotate(50deg); */
+   transform-origin: left center;
+   animation: anime 60s;
+   animation-iteration-count: infinite;
+}
+.line2{
+   /* transform: rotate(50deg); */
+   transform-origin: left center;
+   animation: anime 3600s;
+   animation-iteration-count: infinite;
+}
+.line3{
+   /* transform: rotate(50deg); */
+   transform-origin: left center;
+   animation: anime 216000s;
+   animation-iteration-count: infinite;
+}
+
+
+
+@keyframes anime{
+  from{
+    transform: rotate();
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.center {
+  height: 24px;
+  width: 25px;
+  background-color: rgb(245, 81, 81);
+  border-radius: 100%;
+  position: absolute;
+  top: 47%;
+  left: 47%;
+  z-index: 1;
+  box-shadow: 0 0 3px 1px grey;
+}
+
+
+
+
+/* .outside{
+    width:340px;
+    height:340px;
+    border-radius: 100%;
+    border: 20px solid rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    
+  } */
