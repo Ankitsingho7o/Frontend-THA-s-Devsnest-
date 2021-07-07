@@ -1,0 +1,103 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Encode Sans SC', sans-serif;
+    overflow: hidden;
+ 
+}
+.fold{
+    margin: 10px;
+    width: 100px;
+    border:2px solid brown;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(240, 182, 182);
+    border-radius: 10px;
+    color: rgb(246, 103, 103);
+}
+.fold a{
+    text-decoration: none;
+    
+}
+
+/* Dragable */
+.main{
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    margin:  20px auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.sm{
+    width: 146px;
+    height: 146px;
+    border: 2px solid rgb(255, 115, 0);
+}
+ img {
+    width: 119px;
+    height: 136px;
+  
+}
+
+.box{
+    width:20px;
+    height: 20px;
+    background-color: aquamarine;
+}
+
+/* h1{
+
+} */
+
+
+ /*************keyboard ***** */
+.first{
+    width: 70px;
+    height: 70px;
+    border: 2px solid orange;
+    font-size: 20px;
+    box-shadow: 0 0 10px 1px rgb(168, 168, 168);
+}
+.btn{
+    margin: 20px;
+}
+.awe{
+    border:2px solid red;
+    animation: op 0.5s ease-in-out;
+    transition: 0.2s;
+}
+
+@keyframes op {
+    0%{
+        transform: translateY(0);
+  
+    }
+    100%{
+        transform: translateY(-20px);
+       
+    }
+}
+
+
+/* Video */
+video{
+    width: 50%;
+    height: 42%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px rgb(173, 173, 173);
+}
+
+.h1{
+    margin-bottom: 10px;
+}
+.h2{
+  margin-top: 10px;
+}
