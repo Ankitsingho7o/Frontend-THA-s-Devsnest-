@@ -21,3 +21,5 @@ Day 10 - https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day10/index.ht
 Day 12 - https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day12/index.html
 
 Day 13 - https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day13/index.html
+
+Day 14 - https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day14/index.html
