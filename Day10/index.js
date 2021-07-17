@@ -32,6 +32,7 @@ for (let a in box) {
         };
         if (flip == 2) {
             var fliped = document.querySelectorAll(".flip");
+            console.log(fliped);
             let f1 = fliped[0].childNodes[2].src;
             let f2 = fliped[1].childNodes[2].src;
             // console.log(f1, f2);
