@@ -8,6 +8,8 @@ Day 3 - https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day3/index.html
 
 Day 4 - https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day4/index.html
 
+Day 5 - https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day5/index.html
+
 Day 6 - https://github.com/Ankitsingho7o/Frontend-THA-s-Devsnest-/tree/master/Day6
 
 Day 7 - https://github.com/Ankitsingho7o/Frontend-THA-s-Devsnest-/tree/master/Day7
