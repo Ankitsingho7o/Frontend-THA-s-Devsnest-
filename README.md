@@ -1,6 +1,6 @@
 Hey, Wecome to my THA's Repo.
 
-Day 1 - https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day1/index.html
+[Day 1]{https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day1/index.html}\
 
 Day 2 - https://ankitsingho7o.github.io/Frontend-THA-s-Devsnest-/Day2/index.html
 
